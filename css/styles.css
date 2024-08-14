@@ -73,7 +73,7 @@ header {
     object-fit: cover;
     object-position: bottom;
     max-height: 100%; /* Adjust height based on your needs */
-    width: 70%;
+    width: 65%;
 }
 
 header h1 {
