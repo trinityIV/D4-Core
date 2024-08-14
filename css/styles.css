@@ -70,10 +70,10 @@ header {
 
 .banner img {
     height: 100%;
-    object-fit: cover;
-    object-position: bottom;
+    object-fit: top;
+    object-position: center;
     max-height: 100%; /* Adjust height based on your needs */
-    width: 49%;
+    width: 550px;
 }
 
 header h1 {
