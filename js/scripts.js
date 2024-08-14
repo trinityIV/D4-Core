@@ -118,3 +118,39 @@
     document.addEventListener('DOMContentLoaded',init,false);
     
     })();
+
+    //blood mouse cursor effect
+    var cursor = document.getElementById('cursor');
+    document.addEventListener('mousemove', function(e){
+        var x = e.clientX;
+        var y = e.clientY;
+        cursor.style.left = x + 'px';
+        cursor.style.top = y + 'px';
+    });
+
+    //cursor hover effect
+    var cursor = document.getElementById('cursor');
+    var links = document.getElementsByTagName('a');
+    for (var i = 0; i < links.length; i++) {
+        links[i].addEventListener('mouseover', function(){
+            cursor.classList.add('active');
+        });
+        links[i].addEventListener('mouseout', function(){
+            cursor.classList.remove('active');
+        });
+    }
+
+    //cursor click effect
+    var cursor = document.getElementById('cursor');
+    document.addEventListener('click', function(){
+        cursor.classList.add('click');
+        setTimeout(function(){
+            cursor.classList.remove('click');
+        }, 500);
+    });
+
+    //init cursor
+    var cursor = document.getElementById('cursor');
+    document.addEventListener('DOMContentLoaded', function(){
+        cursor.style.display = 'block';
+    });
