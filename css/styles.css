@@ -69,11 +69,11 @@ header {
 }
 
 .banner img {
-    width: 260px;
-    height: auto;
+    height: 100%;
     object-fit: cover;
-    object-position: center;
-    max-height: 270px; /* Adjust height based on your needs */
+    object-position: bottom;
+    max-height: 100%; /* Adjust height based on your needs */
+    width: 70%;
 }
 
 header h1 {
