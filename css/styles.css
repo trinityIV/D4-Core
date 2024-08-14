@@ -55,11 +55,11 @@ header {
 }
 
 .banner img {
-    width: 100%;
-    height: top;
+    width:590px;
+    height: 100%;
     object-fit: cover;
     object-position: center;
-    max-height: 400px;
+    max-height: 100px;
 
 }
 
